@@ -6,6 +6,7 @@ if [ "$(git status --porcelain | wc -l)" -ne "0" ]; then
        "\n Run 'make' locally to verify."
   git status --porcelain
   echo "$(git status --porcelain | wc -l)"
+  echo "$(git diff)"
   exit 1
 else
   exit 0
