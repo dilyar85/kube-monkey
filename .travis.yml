@@ -12,6 +12,9 @@ git:
 env:
 - GOLANGCI_RELEASE="v1.4.1"
 
+install:
+- echo "hello"
+
 script:
 - curl -sfL https://install.goreleaser.com/github.com/golangci/golangci-lint.sh | bash -s ${GOLANGCI_RELEASE}
 - make
