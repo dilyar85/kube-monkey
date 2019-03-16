@@ -5,6 +5,7 @@ go:
 - "1.10.x"
 - "1.11.x"
 
+go_import_path: github.com/asobti/kube-monkey
 # Only clone the most recent commit.
 git:
   depth: 1
